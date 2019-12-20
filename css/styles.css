@@ -11,18 +11,20 @@ body {
 }
 
 h1 {
-    color: red;
+    
 }
 
 /* Layout Styles */
 
 .main-header {
-    
-    
     width: 100%;
 }
 
 /*Media Queries*/
+
+@media (min-width: 320px) {
+
+}
 
 @media (min-width: 768px) {
     
