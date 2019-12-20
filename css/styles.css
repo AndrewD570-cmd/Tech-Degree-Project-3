@@ -1,0 +1,29 @@
+/* Selectors */
+
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: red;
+}
+
+/* Layout Styles */
+
+.main-header {
+    
+    
+    width: 100%;
+}
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+    
+}
