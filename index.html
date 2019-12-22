@@ -12,26 +12,35 @@
 
 <body>
     <header class="main-header">
-        <h1>THE CODE REVIEW</h1>
+        <h1 class="title">THE CODE REVIEW</h1>
     </header>
     <div>
         <h2>Signup for our newsletter</h2>
         <p>Get the latest news on how your code is doing right in your inbox</p>
     </div>
 
-    <form action="">
+    <form action="index.html" method="POST">
         
-        <h1>Contact Information</h1>
+        <h2>Contact Information</h2>
 
+        
+
+        
+        
+        
         <fieldset>
-            <legend></legend>
+            <input type="text" id="name" name="full_name">
+            <input type="email" id="mail" name="user_email">
         </fieldset>
         
-        <h1>Newsletter</h1>
+        <h2>Newsletter</h2>
         
         <fieldset>
-            <legend></legend>
+            <textarea id="topics" name="user_topics"></textarea>
         </fieldset>
+    
+            <button type="submit">Sign Up</button>
+        
     </form>
 
 
